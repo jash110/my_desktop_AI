@@ -44,8 +44,8 @@ $(document).ready(function () {
         eel.playIntro();
         $("#Oval").attr("hidden",true);
         $("#SiriWave").attr("hidden",false);
+        eel.allCommands()()
 
     });
-
 
 });
