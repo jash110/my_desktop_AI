@@ -78,6 +78,8 @@ body{
     }
 }
 
+/* Input Filed Start*/
+
 #TextInput {
     background-color: #181818a8;
     border-color: blue;
@@ -168,3 +170,34 @@ body{
       background-position: 0 0;
     }
   }
+
+/* Input Filed End*/
+
+/* Chat Box Start */
+
+.chat-canvas{
+  background-color: #191919
+}
+
+.receiver_message{
+  padding: 8px;
+  border: 2px solid rgb(0, 255, 68);
+  border-radius: 0px 15px 15px 20px;
+  width: auto;
+  color: rgb(7, 7, 7);
+  background-color: #e5f50b;
+}
+
+.sender_message{
+  padding: 8px;
+  border: 1px solid #ff9100;
+  border-radius: 15px 15px 0px 20px;
+  width: auto;
+  color: rgb(7, 7, 7);
+  background-color: #ff9100;
+}
+.width-size{
+  max-width: 80%;
+  width: auto;
+}
+/* Chat Box Start End*/
